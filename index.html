@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Diseño UX</title>
+
+		<link rel="stylesheet" href="../bower_components/reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="../bower_components/reveal.js/css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="../bower_components/reveal.js/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section>
+          <section>
+            <h1>Diseño UX</h1>
+            <a href="https://en.wikipedia.org/wiki/User_experience_design" target="_blanc">Def: Wikipedia</a>
+            <h3>Human-first</h3>
+        </section>
+        <section>
+          <h2>Why -> How -> What</h2>
+        </section>
+        <section>
+          <h2>Why</h2>
+          <ul>
+            <li>Motivaciones</li>
+            <li>Valores</li>
+          </ul>
+        </section>
+        <section>
+          <h2>How</h2>
+          <ul>
+            <li>Funcionalidad</li>
+            <li>Capacidades</li>
+          </ul>
+        </section>
+        <section>
+          <h2>What</h2>
+          <ul>
+            <li>Accesabilidad</li>
+            <li>Estetica</li>
+          </ul>
+        </section>
+        </section>
+        <section>
+          <section>Pasos</section>
+          <section>
+            <ol>
+              <li>Entender el contexto</li>
+              <li>Requerimientos</li>
+              <li>Diseño de solución</li>
+              <li>Evaluación de requerimientos</li>
+            </ol>
+          </section>
+          <section>
+            <h2>1. Entender el contexto</h2>
+            <ul>
+              <li>Analisis competencia</li>
+              <li>Analisis cliente</li>
+              <li>Estrategia y Estructura</li>
+              <li>Desarrollo de contenido</li>
+            </ul>
+          </section>
+          <section>
+            <h2>2. Requerimientos</h2>
+            <h3>Historias de usuario</h3>
+            <p>Como [TIPO_DE_PERSONA] quiero [ACCION_A_REALIZAR_EN_LA_APP], para [PROPÓSITO]</p>
+          </section>
+          <section>
+            <a href="http://trello.com/">Trello</a>
+            <ul>
+              <li>  Historias de usuario sin priorizar</li>
+              <li>  Historias de usuario priorizadas</li>
+              <li>  En proceso</li>
+              <li>  Faltan wireframas baja resolusión</li>
+              <li>  Falnta wireframes digitales alta resolución</li>
+              <li>  Falta diseño web</li>
+              <li>  Falta funcionalidad programada</li>
+              <li>  Quality Assessment (QA)</li>
+            </ul>
+          </section>
+          <section>
+            <h2>3. Diseño de solución</h2>
+            <h3>Wireframes</h3>
+            <ul>
+              <li><a href="https://www.invisionapp.com/">Invision</a></li>
+              <li><a href="https://www.sketchapp.com/">Sketch</a></li>
+              <li><a href="https://draw.io">Draw.io</a></li>
+            </ul>
+            <h4>Prototipo</h4>
+            <ul>
+              <li><a href="https://marvelapp.com/">Marvel</a></li>
+              <li><a href="https://www.invisionapp.com/studio">Invision Studio</a></li>
+            </ul>
+            <h5>Testeo constante</h5>
+          </section>
+          <section>
+            <h2>4. Evaluación de requerimientos</h2>
+            <ul>
+              <li>Coordinación con UI (User Interface)</li>
+              <li>Coordinación con Dev (Desarrollo)</li>
+              <li>Metas e integración</li>
+              <li>Analisis constante</li>
+            </ul>
+          </section>
+        </section>
+			</div>
+		</div>
+
+		<script src="../bower_components/reveal.js/lib/js/head.min.js"></script>
+		<script src="../bower_components/reveal.js/js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				transition: 'zoom',
+				dependencies: [
+					{ src: '../bower_components/reveal.js/plugin/markdown/marked.js' },
+					{ src: '../bower_components/reveal.js/plugin/markdown/markdown.js' },
+					{ src: '../bower_components/reveal.js/plugin/notes/notes.js', async: true },
+					{ src: '../bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
